@@ -1,8 +1,6 @@
-# [TeleSeed](https://telegram.me/TeleSeed)
+# [PhenexBot](https://telegram.me/Meh737)
 
-[![https://gitter.im/SEEDTEAM/TeleSeed](https://badges.gitter.im/SEEDTEAM/TeleSeed.svg)](https://gitter.im/SEEDTEAM/TeleSeed?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-**An advanced and powerful administration bot based on [yagop/telegram-bot](https://github.com/yagop/telegram-bot) licensed under the [GNU Affero General Public License](https://github.com/SEEDTEAM/TeleSeed/blob/master/LICENSE)**.
+**An advanced and powerful administration bot based on [SEEDTEAM/TeleSeed](https://github.com/SEEDTEAM/TeleSeed)**
 # Features
 
 * **A powerful antispam system with custom sensitivity for each group**
@@ -26,7 +24,7 @@
 * * *
 
 ## Commands
-TeleSeed has several commands that are only usable at certain ranks.
+PhenexBot has several commands that are only usable at certain ranks.
 
 
 ## General Commands
@@ -166,7 +164,6 @@ TeleSeed has several commands that are only usable at certain ranks.
 |:--------|:--------|:-------------|---------|
 | [#!/]addadmin [id<html>&#124;</html>username] | Set a user as bot admin. | Y | Y | Y |
 | [#!/]removeadmin [id<html>&#124;</html>username] | Remove a user from bot admin. | Y | Y | Y |
-| [#!/]sync_gbans | Sync your GBans with official @TeleSeed | Y | Y | Y |
 
 
 ## Settings 
@@ -236,8 +233,8 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups
-cd TeleSeed
+git clone https://github.com/The-Demon12/PhenexBot.git
+cd PhenexBot
 chmod +x launch.sh
 ./launch.sh install
 ./launch.sh # Enter a phone number & confirmation code.
@@ -246,7 +243,7 @@ chmod +x launch.sh
 To install everything in one command (useful for VPS deployment) on Debian-based distros, use:
 ```sh
 #https://github.com/yagop/telegram-bot/wiki/Installation
-sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/SEEDTEAM/TeleSeed.git -b supergroups && cd TeleSeed && chmod +x launch.sh && ./launch.sh install && ./launch.sh
+sudo apt-get update; sudo apt-get upgrade -y --force-yes; sudo apt-get dist-upgrade -y --force-yes; sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-dev lua-socket lua-sec lua-expat libevent-dev libjansson* libpython-dev make unzip git redis-server g++ autoconf -y --force-yes && git clone https://github.com/The-Demon12/PhenexBot.git && cd PhenexBot && chmod +x launch.sh && ./launch.sh install && ./launch.sh
 ```
 
 * * *
@@ -258,9 +255,7 @@ After you run the bot for first time, send it `!id`. Get your ID and stop the bo
 Open ./data/config.lua and add your ID to the "sudo_users" section in the following format:
 ```
   sudo_users = {
-    110626080,
-    103649648,
-    111020322,
+    188211208,
     0,
     YourID
   }
@@ -285,9 +280,6 @@ Create a realm using the `!createrealm` command.
 
 Check out this [tutorial by Telegram Geeks](http://telegramgeeks.com/2016/01/teleseed-tutorial/) for further assistance with setup and installation.
 
-**Do not contact us** in private for support.
-Join our bot development group by sending `/join 1047524697` to [@TeleSeed](https://telegram.me/TeleSeed)
-
 # Special thanks to
 [@seyedan25](https://telegram.me/seyedan25)
 
@@ -303,7 +295,7 @@ For graphic designs.
 
 * * *
 
-# Our team!
+# TeleSeed team!
 
 [Alphonse](https://github.com/hmon) ([Telegram](https://telegram.me/iwals))
 
@@ -312,9 +304,3 @@ For graphic designs.
 [Siyanew](https://github.com/Siyanew) ([Telegram](https://telegram.me/Siyanew))
 
 [Rondoozle](https://github.com/Rondoozle) ([Telegram](https://telegram.me/POTUS))
-
-### Our Telegram channels:
-
-English: [@SeedChannel](https://telegram.me/seedchannel)
-
-Persian: [@IranSeed](https://telegram.me/iranseed)
